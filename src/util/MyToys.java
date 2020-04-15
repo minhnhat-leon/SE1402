@@ -23,9 +23,13 @@ public class MyToys {
             return 1;
         }
         long product = 1;
-        for (int i = 0; i < n; i++) {
+        for (int i = 1; i <= n; i++) {
             product *= i;
         }
         return product;
     }
 }
+//Đảm bảo hàm hàm trả về phải xử lý đúng như dự kiến
+//test : nhìn. màu
+//màu: thư viện : Junit, TestNG, xUnit, CPPUnit, PHPUnit,....
+//     Thư viện .dll, .jar 
