@@ -34,9 +34,17 @@ public class MyToysTest {
     //xài thêm 1 kĩ thuật bắt ngoại lệ, coi ngoại lệ xảy ra có đúng kì vọng k
     
     @Test(expected = IllegalArgumentException.class)
-    public void testExceptionCases() {
+    public void testExceptionNegagtiveCases() {
         //Ko co value 
         cF(-5);
+        cF(-100);
+        cF(-1);
+    }
+    
+    @Test(expected = IllegalArgumentException.class)
+    public void testExceptionUpperBoundCases() {  //>15 thì k sài được
+        //Ko co value 
+        cF(16);
         cF(100);
     }
 }
