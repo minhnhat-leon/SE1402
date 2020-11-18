@@ -16,6 +16,7 @@ public class SE1402 {
      */
     public static void main(String[] args) {
         System.out.println("VUi ghê");
+        System.out.println("VUi ghê");
     }
     
 }
